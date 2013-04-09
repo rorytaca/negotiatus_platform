@@ -1,0 +1,317 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* FOR SHIV */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+
+
+/* RESETING COMPLETE 96f8c5    7abd9b*/
+
+body {
+	float: left;
+	width: 100%;
+	min-height: 900px;
+	background: #899AA2
+
+}
+
+#content_wrapper {
+	width: 100%;
+}
+
+#inner_content {
+	margin: 0 auto;
+	width: 900px;
+
+}
+
+/**** COMMON TPOGRAPHY ****/
+h1 {
+	float: left;
+	font-weight: 400;
+
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 13pt;
+	letter-spacing: 3px;
+
+	margin-top: 125px;
+	margin-left: -310px;
+	
+	color: #555;
+}
+
+h2 {
+	float: left;
+	font-weight: 400;
+	width: 100%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 15pt;
+	letter-spacing: 3px;
+	
+	margin: -25px 0px 15px 20px;
+	
+	color: #eee;
+	
+
+}
+
+p {
+	float: left;
+	font-weight: 400;
+
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 11pt;
+	letter-spacing: 3px;
+
+	
+	color: #eee;
+}
+
+.hidden {
+	display: none;
+}
+.input_default {
+	float: left;
+	width: 300px;
+	margin-bottom: 10px;
+}
+#form_wrapper p {
+	float: left;
+	width: 100%;
+}
+/**** HEADER STYLE ****/
+#header {
+	float: left;
+	width: 100%;
+	
+	margin: 15px 0px 15px 0px;
+	
+	border-bottom-left-radius: 12px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+
+}
+
+
+#inner_header {
+	background: #899AA2;
+	margin: 0 auto;
+	width: 900px;
+	height: 100%;
+	border-bottom-left-radius: 12px;
+}
+
+#logo {
+	float: left;
+	
+	height: 160px;
+	width: 330px;
+	margin-left: 10px;
+
+	background-image: url('logo.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+
+}
+/**** NEGOTIATION PAGE STYLE ****/
+#product_info {
+	float: left;
+	margin-left: 50px;
+	width: 800px;
+	height: 250px;
+	background: #888;
+	margin-bottom: 40px;
+
+	border: solid 2px #fff;
+}
+
+#product_info #data {
+	float: left;
+	width: 400px;
+	margin: 60px 0px 0px 60px;
+}
+
+.product_info {
+	float: left;
+	width: 350px;
+	line-height: 120%;
+	font-size: 16pt;
+	color: #fff;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+
+#product_info #product_image {
+	float: left;
+	margin: 23px 40px 0px 0px;
+	border: solid 4px #555;
+	height: 200px;
+	
+	background-size: 100% 100%;
+}
+
+/**** NEGOTIATION CHAT STYLE ****/
+.chat_exchange_customer  {
+	float: left;
+        position: relative;  
+	width: 850px;
+
+        text-align: center;  
+        line-height: 50px;  
+        background-color: #fff;  
+        border: 2px solid #666;  
+        -webkit-border-radius: 20px;  
+        -moz-border-radius: 20px;  
+        border-radius: 20px;  
+        -webkit-box-shadow: 2px 2px 4px #888;  
+        -moz-box-shadow: 2px 2px 4px #888;  
+        box-shadow: 2px 2px 4px #888;
+	
+	margin-bottom: 25px;
+	
+	color: #444;
+}
+
+.chat_exchange_customer:before  {  
+        content: ' ';  
+        position: absolute;  
+        width: 0;  
+        height: 0;  
+        left: 12px;  
+        top: 100%;  
+        border: 7px solid;  
+        border-color: #666 transparent transparent #666;  
+}
+
+.chat_exchange_customer:after  {  
+        content: ' ';  
+        position: absolute;  
+        width: 0;  
+        height: 0;  
+        left: 14px;  
+        top: 100%;  
+        border: 5px solid;  
+        border-color: #fff transparent transparent #fff;  
+}
+.chat_exchange_distributor  {
+	float: right;
+        position: relative;  
+	width: 850px;
+
+        text-align: center;  
+        line-height: 50px;  
+        background-color: #fff;  
+        border: 2px solid #666;  
+        -webkit-border-radius: 20px;  
+        -moz-border-radius: 20px;  
+        border-radius: 20px;  
+        -webkit-box-shadow: 2px 2px 4px #888;  
+        -moz-box-shadow: 2px 2px 4px #888;  
+        box-shadow: 2px 2px 4px #888;
+	
+	margin-bottom: 20px;
+	
+	color: #444;
+}
+
+.chat_exchange_distributor:before  {  
+        content: ' ';  
+        position: absolute;  
+        width: 0;  
+        height: 0;  
+        right: 12px;  
+        top: 100%;  
+        border: 7px solid;  
+        border-color: #666 #666 transparent transparent;  
+}
+
+.chat_exchange_distributor:after  {  
+        content: ' ';  
+        position: absolute;  
+        width: 0;  
+        height: 0;  
+        right: 14px;  
+        top: 100%;  
+        border: 5px solid;  
+        border-color: #fff #fff transparent transparent;
+	
+	
+}
+.exchange_waiting {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#negotiation_respond_form {
+	float: left;
+	width: 350px;
+	margin-left: 350px;
+}
+
+#exchange {
+	width: 100%;
+}
+
+#form_wrapper {
+	float: left;
+	margin-left: 375px;
+	width: 300px;
+
+}
+
+#submit_button {
+	float: left;
+}
